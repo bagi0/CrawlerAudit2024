@@ -23,7 +23,7 @@ CrawlerAudit is a simple Dockerized PHP application designed to test and evaluat
 Follow these detailed steps to get a copy of CrawlerAudit running on your local machine for development and testing purposes.
 
 ### Prerequisites
-- **Docker**: Ensure Docker is installed on your system. Visit [Docker's official site]([https://www.docker.com/get-started](https://hub.docker.com/r/rashad8888/crawleraudit)) for installation instructions.
+- **Docker**: Ensure Docker is installed on your system. Visit [Docker's official site]([[https://www.docker.com/get-started](https://hub.docker.com/r/rashad8888/crawleraudit)](https://hub.docker.com/r/rashad8888/crawleraudit)) for installation instructions.
 
 ### Installation
 1. **Pull the Docker Image**
