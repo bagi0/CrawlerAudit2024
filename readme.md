@@ -9,11 +9,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage Guide](#usage-guide)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Project Overview
 CrawlerAudit is a comprehensive Dockerized PHP application designed to test and evaluate the capabilities of web crawling tools and vulnerability scanners. This application simulates a multi-tier web environment embedded with various interactive elements to challenge and assess the robustness and thoroughness of scanning tools in identifying potential vulnerabilities and efficiently mapping web structures.
@@ -31,7 +26,12 @@ Follow these detailed steps to get a copy of CrawlerAudit running on your local 
 - **Docker**: Ensure Docker is installed on your system. Visit [Docker's official site](https://www.docker.com/get-started) for installation instructions.
 
 ### Installation
-1. **Clone the Repository**:
+1. **Pull the Docker Image**
    ```bash
-   git clone https://github.com/rashad8888/CrawlerAudit.git
-   cd CrawlerAudit
+   docker pull rashad8888/crawleraudit:latest
+   docker run -d -p 8080:80 rashad8888/crawleraudit:latest
+   
+### Usage Guide
+ After installing and running the Docker container as described above, you can start using the application:
+Access the Application: Open your browser and go to http://localhost:8080. You will be greeted by the CrawlerAudit interface.
+
