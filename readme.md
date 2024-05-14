@@ -14,10 +14,9 @@
 CrawlerAudit is a simple Dockerized PHP application designed to test and evaluate the capabilities of web crawling tools and vulnerability scanners. This application simulates a multi-tier web environment embedded with various interactive elements to challenge and assess the robustness and thoroughness of scanning tools in efficiently mapping web structures. There are 5000 pages that can be crawled.
 
 ## Features
-- **Complex Web Page Structure**: Implements a layered structure of web pages with varying complexity to mimic realistic internet environments.
+- **Web Page Structure**: Implements a layered structure of web pages with varying complexity to mimic realistic internet environments.
 - **Interactive Elements**: Includes forms, buttons, links, and dynamic content to test interaction handling by crawlers.
-- **Customizable Settings**: Users can adjust settings to simulate different environments and conditions.
-- **Performance Metrics**: Provides analytics on crawler performance, including speed, accuracy, and coverage.
+- **Performance Metrics**: Provides analytics on crawler performance, only about speed and coverage.
 
 ## Getting Started
 Follow these detailed steps to get a copy of CrawlerAudit running on your local machine for development and testing purposes.
